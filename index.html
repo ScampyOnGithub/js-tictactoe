@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>TicTacToe</h1>
+    <div>
+        <ul>
+            <li><button onclick="reset()">Reset</button></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div>
+            <button onclick="choose_tile(0,0)"><img id="cell_1" src="assets/cross.png" alt="" style="display: none"></button>
+        </div>
+        <div>
+            <button onclick="choose_tile(0,1)"><img id="cell_2" src="assets/cross.png" alt="" style="display: none"></button>
+        </div>
+        <div>
+            <button onclick="choose_tile(0,2)"><img id="cell_3" src="assets/cross.png" alt="" style="display: none"></button>
+        </div>
+        <div>
+            <button onclick="choose_tile(1,0)"><img id="cell_4" src="assets/cross.png" alt="" style="display: none"></button>
+        </div>
+        <div>
+            <button onclick="choose_tile(1,1)"><img id="cell_5" src="assets/cross.png" alt="" style="display: none"></button>
+        </div>
+        <div>
+            <button onclick="choose_tile(1,2)"><img id="cell_6" src="assets/cross.png" alt="" style="display: none"></button>
+        </div>
+        <div>
+            <button onclick="choose_tile(2,0)"><img id="cell_7" src="assets/cross.png" alt="" style="display: none"></button>
+        </div>
+        <div>
+            <button onclick="choose_tile(2,1)"><img id="cell_8" src="assets/cross.png" alt="" style="display: none"></button>
+        </div>
+        <div>
+            <button onclick="choose_tile(2,2)"><img id="cell_9" src="assets/cross.png" alt="" style="display: none"></button>
+        </div>
+    </div>
+    <p id="textbox">Score 3 in a row vertically, horizontally, or diagonally to win!</p>
+</body>
+</html>
